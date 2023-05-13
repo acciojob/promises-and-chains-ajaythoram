@@ -10,7 +10,7 @@ submitBtn.addEventListener('click', event => {
   const name = nameInput.value;
 
   if (!age || !name) {
-    alert('Please fill out all fields');
+    alert('Please enter valid details');
     return;
   }
 
